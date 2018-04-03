@@ -100,8 +100,8 @@ running code in 'datetime2.R' ... OK
 running tests of documentation examples
 running code in 'R-intro.R' ... OK
   comparing 'R-intro.Rout' to './R-intro.Rout.save' ... OK
-C:/gcc8/mingw64/bin/gcc  -I"C:/Users/jeroen/Documents/BUILD/R-devel-win64/include" -DNDEBUG     -I"C:/Users/jeroen/Documents/BUILD/R-devel-win64/extsoft/include"     -O2 -Wall  -std=gnu99 -mtune=generic -c R-exts.c -o R-exts.o
-C:/gcc8/mingw64/bin/g++ -shared -s -static-libgcc -o R-exts.dll tmp.def R-exts.o -LC:/Users/jeroen/Documents/BUILD/R-devel-win64/extsoft/lib/x64 -LC:/Users/jeroen/Documents/BUILD/R-devel-win64/extsoft/lib -LC:/Users/jeroen/Documents/BUILD/R-devel-win64/bin/x64 -lR
+C:/rtools40/mingw64/bin/gcc  -I"C:/Users/jeroen/Documents/BUILD/R-devel-win64/include" -DNDEBUG     -I"C:/Users/jeroen/Documents/BUILD/R-devel-win64/extsoft/include"     -O2 -Wall  -std=gnu99 -mtune=generic -c R-exts.c -o R-exts.o
+C:/rtools40/mingw64/bin/g++ -shared -s -static-libgcc -o R-exts.dll tmp.def R-exts.o -LC:/Users/jeroen/Documents/BUILD/R-devel-win64/extsoft/lib/x64 -LC:/Users/jeroen/Documents/BUILD/R-devel-win64/extsoft/lib -LC:/Users/jeroen/Documents/BUILD/R-devel-win64/bin/x64 -lR
 running code in 'R-exts.R' ... OK
 running tests of consistency of as/is.*
 creating 'isas-tests.R'
@@ -137,7 +137,7 @@ testing building standalone Rmath
 check output can be found in src/nmath/standalone/check.log
 checking package 'base'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/base.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * using option '--no-build-vignettes'
@@ -174,7 +174,7 @@ for details.
 
 checking package 'tools'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/tools.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * using option '--no-build-vignettes'
@@ -217,7 +217,7 @@ Status: OK
 
 checking package 'utils'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/utils.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * using option '--no-build-vignettes'
@@ -266,7 +266,7 @@ Status: OK
 
 checking package 'grDevices'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/grDevices.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * using option '--no-build-vignettes'
@@ -310,7 +310,7 @@ Status: OK
 
 checking package 'graphics'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/graphics.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * using option '--no-build-vignettes'
@@ -353,7 +353,7 @@ for details.
 
 checking package 'stats'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/stats.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * using option '--no-build-vignettes'
@@ -420,7 +420,7 @@ for details.
 
 checking package 'datasets'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/datasets.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * using option '--no-build-vignettes'
@@ -452,7 +452,7 @@ Status: OK
 
 checking package 'methods'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/methods.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * using option '--no-build-vignettes'
@@ -504,7 +504,7 @@ Status: OK
 
 checking package 'grid'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/grid.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * using option '--no-build-vignettes'
@@ -567,7 +567,7 @@ Status: OK
 
 checking package 'splines'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/splines.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * using option '--no-build-vignettes'
@@ -609,7 +609,7 @@ Status: OK
 
 checking package 'stats4'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/stats4.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * using option '--no-build-vignettes'
@@ -649,7 +649,7 @@ Status: OK
 
 checking package 'tcltk'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/tcltk.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * using option '--no-build-vignettes'
@@ -687,7 +687,7 @@ Status: OK
 
 checking package 'compiler'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/compiler.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * using option '--no-build-vignettes'
@@ -736,7 +736,7 @@ Status: OK
 
 checking package 'parallel'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/parallel.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * using option '--no-build-vignettes'
@@ -791,7 +791,7 @@ for details.
 
 checking package 'MASS'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/MASS.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'MASS/DESCRIPTION' ... OK
@@ -874,7 +874,7 @@ for details.
 
 checking package 'lattice'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/lattice.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'lattice/DESCRIPTION' ... OK
@@ -957,11 +957,11 @@ for details.
 
 checking package 'Matrix'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/Matrix.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'Matrix/DESCRIPTION' ... OK
-* this is package 'Matrix' version '1.2-12'
+* this is package 'Matrix' version '1.2-13'
 * package encoding: UTF-8
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
@@ -1035,20 +1035,14 @@ See 'Writing portable packages' in the 'Writing R Extensions' manual.
   Running 'abIndex-tsts.R'
   Running 'base-matrix-fun.R'
   Running 'bind.R'
-  Comparing 'bind.Rout' to 'bind.Rout.save' ...273,274c273,274
-< cBind (m, v= 1:0 ), class(m) : dgeMatrix ,. dgCMatrix ,. dgTMatrix ,.
-< rBind (m, v= 1:0 ), class(m) : dgeMatrix ,. dgCMatrix ,. dgTMatrix ,.
----
-> cBind (m, v= c(1L, 0L) ), class(m) : dgeMatrix ,. dgCMatrix ,. dgTMatrix ,.
-> rBind (m, v= c(1L, 0L) ), class(m) : dgeMatrix ,. dgCMatrix ,. dgTMatrix ,.
+  Comparing 'bind.Rout' to 'bind.Rout.save' ... OK
   Running 'dg_Matrix.R'
   Running 'dpo-test.R'
   Running 'dtpMatrix.R'
   Running 'factorizing.R'
   Running 'group-methods.R'
   Running 'indexing.R'
-  Comparing 'indexing.Rout' to 'indexing.Rout.save' ...1969a1970
-> NULL
+  Comparing 'indexing.Rout' to 'indexing.Rout.save' ... OK
   Running 'matprod.R'
   Running 'matr-exp.R'
   Running 'other-pkgs.R'
@@ -1077,7 +1071,7 @@ for details.
 
 checking package 'nlme'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/nlme.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'nlme/DESCRIPTION' ... OK
@@ -1177,7 +1171,7 @@ for details.
 
 checking package 'survival'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/survival.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'survival/DESCRIPTION' ... OK
@@ -1428,7 +1422,7 @@ for details.
 
 checking package 'boot'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/boot.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'boot/DESCRIPTION' ... OK
@@ -1480,11 +1474,11 @@ Status: OK
 
 checking package 'cluster'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/cluster.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'cluster/DESCRIPTION' ... OK
-* this is package 'cluster' version '2.0.6'
+* this is package 'cluster' version '2.0.7'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -1540,16 +1534,7 @@ See 'Writing portable packages' in the 'Writing R Extensions' manual.
 * checking for unstated dependencies in 'tests' ... OK
 * checking tests ...
   Running 'agnes-ex.R'
-  Comparing 'agnes-ex.Rout' to 'agnes-ex.Rout.save' ...463,466c463,466
-<  $ diss     : 'dissimilarity' num [1:2775] 11 12 29 13 25 43 33 22 27 39 ...
-<   ..- attr(*, "Size")= int 75
-<   ..- attr(*, "Metric")= chr "manhattan"
-<   ..- attr(*, "Labels")= chr [1:75] "1" "2" "3" "4" ...
----
->  $ diss     :Classes 'dissimilarity', 'dist'  atomic [1:2775] 11 12 29 13 25 43 33 22 27 39 ...
->   .. ..- attr(*, "Size")= int 75
->   .. ..- attr(*, "Metric")= chr "manhattan"
->   .. ..- attr(*, "Labels")= chr [1:75] "1" "2" "3" "4" ...
+  Comparing 'agnes-ex.Rout' to 'agnes-ex.Rout.save' ... OK
   Running 'clara-NAs.R'
   Comparing 'clara-NAs.Rout' to 'clara-NAs.Rout.save' ... OK
   Running 'clara-ex.R'
@@ -1558,56 +1543,15 @@ See 'Writing portable packages' in the 'Writing R Extensions' manual.
   Running 'clusplot-out.R'
   Comparing 'clusplot-out.Rout' to 'clusplot-out.Rout.save' ... OK
   Running 'daisy-ex.R'
-  Comparing 'daisy-ex.Rout' to 'daisy-ex.Rout.save' ...25,27c25,27
-<  'dissimilarity' num(0) 
-<  - attr(*, "Size")= int 1
-<  - attr(*, "Metric")= chr "euclidean"
----
-> Classes 'dissimilarity', 'dist'  atomic (0) 
->   ..- attr(*, "Size")= int 1
->   ..- attr(*, "Metric")= chr "euclidean"
-37,39c37,39
-<  'dissimilarity' num(0) 
-<  - attr(*, "Size")= int 0
-<  - attr(*, "Metric")= chr "euclidean"
----
-> Classes 'dissimilarity', 'dist'  atomic (0) 
->   ..- attr(*, "Size")= int 0
->   ..- attr(*, "Metric")= chr "euclidean"
+  Comparing 'daisy-ex.Rout' to 'daisy-ex.Rout.save' ... OK
   Running 'diana-boots.R'
   Running 'diana-ex.R'
-  Comparing 'diana-ex.Rout' to 'diana-ex.Rout.save' ...414,417c414,417
-<  $ diss     : 'dissimilarity' num [1:2775] 11 12 29 13 25 43 33 22 27 39 ...
-<   ..- attr(*, "Size")= int 75
-<   ..- attr(*, "Metric")= chr "manhattan"
-<   ..- attr(*, "Labels")= chr [1:75] "1" "2" "3" "4" ...
----
->  $ diss     :Classes 'dissimilarity', 'dist'  atomic [1:2775] 11 12 29 13 25 43 33 22 27 39 ...
->   .. ..- attr(*, "Size")= int 75
->   .. ..- attr(*, "Metric")= chr "manhattan"
->   .. ..- attr(*, "Labels")= chr [1:75] "1" "2" "3" "4" ...
+  Comparing 'diana-ex.Rout' to 'diana-ex.Rout.save' ... OK
   Running 'ellipsoid-ex.R'
   Comparing 'ellipsoid-ex.Rout' to 'ellipsoid-ex.Rout.save' ... OK
   Running 'fanny-ex.R'
   Running 'mona.R'
-  Comparing 'mona.Rout' to 'mona.Rout.save' ...2624a2625,2633
-> List of 7
->  $ data     : int [1:512, 1:4] 0 0 0 0 1 1 1 0 1 0 ...
->  $ hasNA    : logi FALSE
->  $ order    : int [1:512] 1 137 154 204 353 398 30 52 69 85 ...
->  $ variable : int [1:511] 0 0 0 0 0 3 0 0 0 0 ...
->  $ step     : int [1:511] 0 0 0 0 0 4 0 0 0 0 ...
->  $ order.lab: NULL
->  $ call     : language mona(x = x)
->  - attr(*, "class")= chr "mona"
-2780,2781c2789,2792
-< Warning message:
-< In RNGkind("Marsaglia-Multicarry", "Buggy Kinderman-Ramage") :
----
-> Warning messages:
-> 1: In RNGkind("Marsaglia-Multicarry", "Buggy Kinderman-Ramage") :
->   buggy version of Kinderman-Ramage generator used
-> 2: In RNGkind("Marsaglia-Multicarry", "Buggy Kinderman-Ramage") :
+  Comparing 'mona.Rout' to 'mona.Rout.save' ... OK
   Running 'pam.R'
   Comparing 'pam.Rout' to 'pam.Rout.save' ... OK
   Running 'silhouette-default.R'
@@ -1626,7 +1570,7 @@ for details.
 
 checking package 'codetools'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/codetools.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'codetools/DESCRIPTION' ... OK
@@ -1678,7 +1622,7 @@ Status: OK
 
 checking package 'foreign'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/foreign.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'foreign/DESCRIPTION' ... OK
@@ -1767,7 +1711,7 @@ for details.
 
 checking package 'KernSmooth'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/KernSmooth.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'KernSmooth/DESCRIPTION' ... OK
@@ -1839,7 +1783,7 @@ for details.
 
 checking package 'rpart'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/rpart.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'rpart/DESCRIPTION' ... OK
@@ -1947,7 +1891,7 @@ for details.
 
 checking package 'class'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/class.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'class/DESCRIPTION' ... OK
@@ -2011,7 +1955,7 @@ for details.
 
 checking package 'nnet'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/nnet.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'nnet/DESCRIPTION' ... OK
@@ -2075,7 +2019,7 @@ for details.
 
 checking package 'spatial'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/spatial.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'spatial/DESCRIPTION' ... OK
@@ -2140,7 +2084,7 @@ for details.
 
 checking package 'mgcv'
 * using log directory 'C:/Users/jeroen/Documents/BUILD/R-devel-win64/tests/mgcv.Rcheck'
-* using R Under development (unstable) (2018-03-29 r74490)
+* using R Under development (unstable) (2018-04-02 r74505)
 * using platform: x86_64-w64-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'mgcv/DESCRIPTION' ... OK

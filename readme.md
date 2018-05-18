@@ -1,28 +1,22 @@
 # Rtools 4.0 
 
-*Last updated by Jeroen, April 3, 2018*
+*Last updated by Jeroen, May 18, 2018*
 
 ![status](https://img.shields.io/badge/status-highly_experimental-ff6600.svg)
 
-We are currently testing R on Windows using an alpha version of gcc-8. If things go well, we may consider upgrading the official rtools toolchain for the next major release of R.
+We are currently testing R on Windows using a test build of `gcc-8.1.0` with `mingw-w64 v5` runtime. If things go well, we may consider upgrading the official rtools toolchain for the next major release of R.
 
 ## Download
 
-__This is an experimental version for testing purposes only! It is not the official rtools!__ 
-The alpha bundle contains:
+__This is an experimental toolchain for testing purposes only! It is not the official rtools!__ 
 
- - Toolchains based on `gcc-8.0.1 (20180331)` with `mingw-w64 v5` runtime
- - Build utilities from `msys2` (march 2018)
- - ICU 58.2
- - Texinfo 5 (unchanged from rtools 3.4)
+ - The `mingw32` toolchain: [i686-810-posix-dwarf-rt_v5-s](https://cloud.r-project.org/bin/windows/Rtools/i686-810-posix-dwarf-rt_v5-s.7z)
+ - The `mingw64` toolchain: [x86_64-810-posix-seh-rt_v5-s](https://cloud.r-project.org/bin/windows/Rtools/x86_64-810-posix-seh-rt_v5-s.7z)
 
-Download from CRAN: https://cloud.r-project.org/bin/windows/Rtools/rtools40_alpha.zip
-
-To test R packages with the new toolchain, extract the bundle to e.g. `C:\rtools40` and put the following in your `~/.Renviron` file (home is your Documents folder on Windows):
+To test building R packages with this new toolchain, extract it to e.g. `C:/gcc-8.1.0/mingw32` and `C:/gcc-8.1.0/mingw64`. Then set the `BINPREF` variable in your `~/.Renviron` file (home is your Documents folder on Windows):
 
 ```sh
-PATH="C:\rtools40\bin;${PATH}"
-BINPREF="C:/rtools40/mingw$(WIN)/bin/"
+BINPREF="C:/gcc-8.1.0/mingw$(WIN)/bin/"
 ```
 
 ## Status
